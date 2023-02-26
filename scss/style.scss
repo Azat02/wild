@@ -829,9 +829,16 @@ header{
             flex-direction: column;
             margin-left: 0px;
             &_descr{
-                margin-left: 30px;
+                margin-left: 0px;
                 &_title{
                     font-size: 39px;
+                    margin-top: 30px;
+                    text-align: center;
+                }
+                &_text{
+                    text-align: center;
+                    margin: 0 auto;
+                    width: 80%;
                 }
             }
         }
@@ -870,7 +877,7 @@ header{
                 margin: 47px auto;
             }
             &_img{
-                width: 320px;
+                width: 100%;
                 margin-top: 100px;
                 img{
                     width: 300px;
@@ -884,6 +891,8 @@ header{
             .wrapper1{
                 width: 100%;
                 padding-left: 15px;
+                margin: 0 auto;
+                text-align: center;
                 .title{
                     font-size: 45px;
                     line-height: 45px;
@@ -891,6 +900,9 @@ header{
                     &::after{
                         display: none;
                     }
+                }
+                .btn{
+                    margin: 50px auto;
                 }
                 .subtitle{
                     font-size: 35px;
@@ -902,14 +914,16 @@ header{
             }
             .wrapper2{
                 padding-left: 10px;
-                width: 100%;
+                width: 80%;
+                margin: 0 auto;
                 .title{
                     font-size: 18px;
                     line-height: 28px;
+                    text-align: center;
                 }
                 .list {
                     &_item{
-                        width: 280px;
+                        width: 100%;
                         font-size: 28px;
                         &::after{
                             left: 110px;
@@ -941,28 +955,39 @@ header{
     }
     .concept{
         &_title{
+            text-align: center;
             margin: 100px 10px 0 10px;
             font-size: 39px;
         }
         &_subtitle{
-            margin: 30px 10px 0 10px;
+            width: 80%;
+            text-align: center;
+            margin: 50px auto;
         }
         .our{
             &_block{
                 flex-direction: column;
                 padding: 0 10px;
-                width: 100%;
+                width: 80%;
+                margin: 0 auto;
+                .wrapper{
+                    text-align: center;
+                }
+            }
+            &_discover{
+                margin: 60px auto;
             }
             &_title{
                 font-size: 39px;
                 line-height: 39px;
                 &::after{
-                    left: 10px;
+                    left: 50px;
                     top: -340px;
                 }
             }
             &_img{
-                width: 300px;
+                width: 80%;
+                margin: 0 auto;
                 margin-top: 100px;
                 &::before{
                     display: none;
@@ -975,6 +1000,7 @@ header{
         .nut{
             flex-direction: column;
             .wrapper1{
+                text-align: center;
                 width: 100%;
                 padding: 110px 0 0 10px;
                 min-height: 500px;
@@ -992,6 +1018,9 @@ header{
                 &_descr{
                     margin-top: 40px;
                 }
+                .btn{
+                    margin: 46px auto;
+                }
                 
             }
             .wrapper2{
@@ -1007,10 +1036,7 @@ header{
             flex-direction: column;
             .wrapper{
                 margin-bottom: 70px;
-                img{
-                    width: 300px;
-                    height: 300px;
-                }
+                
                 &_title{
                     font-size: 29px;
                     line-height: 33px;
@@ -1026,7 +1052,8 @@ header{
             padding-left: 10px;
             flex-direction: column;
             &_wild{
-                width: 100%;
+                width: 80%;
+                margin: 0 auto;
                 &_title{
                     font-size: 39px;
                 }
@@ -1035,8 +1062,8 @@ header{
                 }
             }
             &_products{
-                margin-top: 100px;
-                width: 100%;
+                width: 80%;
+                margin: 100px auto 0 auto;
             }
         }
         &_plastic{

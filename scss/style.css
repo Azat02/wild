@@ -673,9 +673,15 @@ header {
     flex-direction: column;
     margin-left: 0px; }
     .main .loved_descr {
-      margin-left: 30px; }
+      margin-left: 0px; }
       .main .loved_descr_title {
-        font-size: 39px; }
+        font-size: 39px;
+        margin-top: 30px;
+        text-align: center; }
+      .main .loved_descr_text {
+        text-align: center;
+        margin: 0 auto;
+        width: 80%; }
   .main .butter {
     margin: 162px 0 0 10px; }
     .main .butter .peanut {
@@ -701,7 +707,7 @@ header {
   .main .our_discover {
     margin: 47px auto; }
   .main .our_img {
-    width: 320px;
+    width: 100%;
     margin-top: 100px; }
     .main .our_img img {
       width: 300px;
@@ -711,13 +717,17 @@ header {
     flex-direction: column; }
     .main .nut .wrapper1 {
       width: 100%;
-      padding-left: 15px; }
+      padding-left: 15px;
+      margin: 0 auto;
+      text-align: center; }
       .main .nut .wrapper1 .title {
         font-size: 45px;
         line-height: 45px;
         padding-top: 110px; }
         .main .nut .wrapper1 .title::after {
           display: none; }
+      .main .nut .wrapper1 .btn {
+        margin: 50px auto; }
       .main .nut .wrapper1 .subtitle {
         font-size: 35px;
         line-height: 35px; }
@@ -725,12 +735,14 @@ header {
           display: none; }
     .main .nut .wrapper2 {
       padding-left: 10px;
-      width: 100%; }
+      width: 80%;
+      margin: 0 auto; }
       .main .nut .wrapper2 .title {
         font-size: 18px;
-        line-height: 28px; }
+        line-height: 28px;
+        text-align: center; }
       .main .nut .wrapper2 .list_item {
-        width: 280px;
+        width: 100%;
         font-size: 28px; }
         .main .nut .wrapper2 .list_item::after {
           left: 110px; }
@@ -751,22 +763,31 @@ header {
         margin: 50px auto; }
 
   .concept_title {
+    text-align: center;
     margin: 100px 10px 0 10px;
     font-size: 39px; }
   .concept_subtitle {
-    margin: 30px 10px 0 10px; }
+    width: 80%;
+    text-align: center;
+    margin: 50px auto; }
   .concept .our_block {
     flex-direction: column;
     padding: 0 10px;
-    width: 100%; }
+    width: 80%;
+    margin: 0 auto; }
+    .concept .our_block .wrapper {
+      text-align: center; }
+  .concept .our_discover {
+    margin: 60px auto; }
   .concept .our_title {
     font-size: 39px;
     line-height: 39px; }
     .concept .our_title::after {
-      left: 10px;
+      left: 50px;
       top: -340px; }
   .concept .our_img {
-    width: 300px;
+    width: 80%;
+    margin: 0 auto;
     margin-top: 100px; }
     .concept .our_img::before {
       display: none; }
@@ -775,6 +796,7 @@ header {
   .concept .nut {
     flex-direction: column; }
     .concept .nut .wrapper1 {
+      text-align: center;
       width: 100%;
       padding: 110px 0 0 10px;
       min-height: 500px; }
@@ -788,6 +810,8 @@ header {
         margin-top: 33px; }
       .concept .nut .wrapper1_descr {
         margin-top: 40px; }
+      .concept .nut .wrapper1 .btn {
+        margin: 46px auto; }
     .concept .nut .wrapper2 {
       width: 100%;
       margin-left: 0; }
@@ -798,9 +822,6 @@ header {
     flex-direction: column; }
     .concept .salty .wrapper {
       margin-bottom: 70px; }
-      .concept .salty .wrapper img {
-        width: 300px;
-        height: 300px; }
       .concept .salty .wrapper_title {
         font-size: 29px;
         line-height: 33px; }
@@ -811,14 +832,15 @@ header {
     padding-left: 10px;
     flex-direction: column; }
     .stay .wrapper_wild {
-      width: 100%; }
+      width: 80%;
+      margin: 0 auto; }
       .stay .wrapper_wild_title {
         font-size: 39px; }
       .stay .wrapper_wild input {
         width: 300px; }
     .stay .wrapper_products {
-      margin-top: 100px;
-      width: 100%; }
+      width: 80%;
+      margin: 100px auto 0 auto; }
   .stay_plastic {
     margin-top: 100px; } }
 
