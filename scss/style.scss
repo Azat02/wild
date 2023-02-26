@@ -62,6 +62,8 @@ header{
         line-height: 94px;
         text-align: center;
         color: #000000;
+        margin-top: -5px;
+        
     }
     .down{
         background: #000000;
@@ -850,7 +852,7 @@ header{
         }
         .our{
             &_block{
-                width: 320px;
+                width: 100%;
                 flex-direction: column;
                 .wrapper{
                     text-align: center;
@@ -880,7 +882,7 @@ header{
         .nut{
             flex-direction: column;
             .wrapper1{
-                width: 320px;
+                width: 100%;
                 padding-left: 15px;
                 .title{
                     font-size: 45px;
@@ -900,6 +902,7 @@ header{
             }
             .wrapper2{
                 padding-left: 10px;
+                width: 100%;
                 .title{
                     font-size: 18px;
                     line-height: 28px;
@@ -948,7 +951,7 @@ header{
             &_block{
                 flex-direction: column;
                 padding: 0 10px;
-                width: 320px;
+                width: 100%;
             }
             &_title{
                 font-size: 39px;
@@ -972,7 +975,7 @@ header{
         .nut{
             flex-direction: column;
             .wrapper1{
-                width: 320px;
+                width: 100%;
                 padding: 110px 0 0 10px;
                 min-height: 500px;
                 .title{
@@ -992,7 +995,7 @@ header{
                 
             }
             .wrapper2{
-                width: 320px;
+                width: 100%;
                 margin-left: 0;
                 .title{
                     font-size: 33px;

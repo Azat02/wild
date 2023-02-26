@@ -53,7 +53,8 @@ header {
     font-size: 85px;
     line-height: 94px;
     text-align: center;
-    color: #000000; }
+    color: #000000;
+    margin-top: -5px; }
   header .down {
     background: #000000;
     transform: rotate(-90deg);
@@ -687,7 +688,7 @@ header {
       line-height: 33px;
       margin-top: -50px; }
   .main .our_block {
-    width: 320px;
+    width: 100%;
     flex-direction: column; }
     .main .our_block .wrapper {
       text-align: center; }
@@ -709,7 +710,7 @@ header {
   .main .nut {
     flex-direction: column; }
     .main .nut .wrapper1 {
-      width: 320px;
+      width: 100%;
       padding-left: 15px; }
       .main .nut .wrapper1 .title {
         font-size: 45px;
@@ -723,7 +724,8 @@ header {
         .main .nut .wrapper1 .subtitle::after {
           display: none; }
     .main .nut .wrapper2 {
-      padding-left: 10px; }
+      padding-left: 10px;
+      width: 100%; }
       .main .nut .wrapper2 .title {
         font-size: 18px;
         line-height: 28px; }
@@ -756,7 +758,7 @@ header {
   .concept .our_block {
     flex-direction: column;
     padding: 0 10px;
-    width: 320px; }
+    width: 100%; }
   .concept .our_title {
     font-size: 39px;
     line-height: 39px; }
@@ -773,7 +775,7 @@ header {
   .concept .nut {
     flex-direction: column; }
     .concept .nut .wrapper1 {
-      width: 320px;
+      width: 100%;
       padding: 110px 0 0 10px;
       min-height: 500px; }
       .concept .nut .wrapper1 .title {
@@ -787,7 +789,7 @@ header {
       .concept .nut .wrapper1_descr {
         margin-top: 40px; }
     .concept .nut .wrapper2 {
-      width: 320px;
+      width: 100%;
       margin-left: 0; }
       .concept .nut .wrapper2 .title {
         font-size: 33px;
