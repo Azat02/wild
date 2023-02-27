@@ -17,7 +17,7 @@ window.addEventListener('DOMContentLoaded', () => {
     let cart = document.querySelector('.cart')
 
     cookiesBtn.addEventListener('click', ()=>{
-        cookies.style.display = 'none';
+        cookies.classList.add('hide')
     })
 
 
