@@ -13,7 +13,7 @@
         <div class="container">
             <div class="menus">
                 <div class="menu1">
-                    <div class="menu1_item"><a href="#">Products</a></div>
+                    <div class="menu1_item"><a href="#products">Products</a></div>
                     <div class="menu1_item"><a href="#">Who we are</a></div>
                     <div class="menu1_item"><a href="#">Concept Store</a></div>
                 </div>
@@ -57,7 +57,7 @@
                 </div>
                 <div class="butter_title">The Wild Peanut <br> Butter</div>
                 <div class="butter_price">€4,90</div>
-                <div class="butter_buy">BUY NOW!</div>
+                <button data-modal class="butter_buy">BUY NOW!</button>
             </div>
             <div class="butter butter_grown">
                 <div class="peanut peanut_grown">
@@ -65,7 +65,7 @@
                 </div>
                 <div class="butter_title">Tahini with Cocoa & <br> Honey</div>
                 <div class="butter_price">€5,90</div>
-                <div class="butter_buy butter_buy_grown">BUY NOW!</div>
+                <button class="butter_buy butter_buy_grown">BUY NOW!</button>
             </div>
             <div class="butter butter_blue">
                 <div class="peanut peanut_blue">
@@ -73,7 +73,7 @@
                 </div>
                 <div class="butter_title">The Wild Hazelnut <br> Butter</div>
                 <div class="butter_price">€6,90</div>
-                <div class="butter_buy butter_buy_blue">BUY NOW!</div>
+                <button class="butter_buy butter_buy_blue">BUY NOW!</button>
             </div>
             <div class="butter butter_grown">
                 <div class="peanut peanut_yellow">
@@ -81,7 +81,7 @@
                 </div>
                 <div class="butter_title">The Wild Tahini</div>
                 <div class="butter_price">€4,90</div>
-                <div class="butter_buy butter_buy_yellow">BUY NOW!</div>
+                <button class="butter_buy butter_buy_yellow">BUY NOW!</button>
             </div>
             <div class="butter">
                 <div class="peanut">
@@ -89,7 +89,7 @@
                 </div>
                 <div class="butter_title">The Wild Peanut <br> Butter</div>
                 <div class="butter_price">€4,90</div>
-                <div class="butter_buy">BUY NOW!</div>
+                <button class="butter_buy">BUY NOW!</button>
             </div>
             <div class="butter butter_grown">
                 <div class="peanut peanut_grown">
@@ -97,7 +97,7 @@
                 </div>
                 <div class="butter_title">Tahini with Cocoa & <br> Honey</div>
                 <div class="butter_price">€5,90</div>
-                <div class="butter_buy butter_buy_grown">BUY NOW!</div>
+                <button class="butter_buy butter_buy_grown">BUY NOW!</button>
             </div>
             <div class="butter butter_blue">
                 <div class="peanut peanut_blue">
@@ -105,7 +105,7 @@
                 </div>
                 <div class="butter_title">The Wild Hazelnut <br> Butter</div>
                 <div class="butter_price">€6,90</div>
-                <div class="butter_buy butter_buy_blue">BUY NOW!</div>
+                <butter class="butter_buy butter_buy_blue">BUY NOW!</butter>
             </div>
             <div class="butter butter_grown">
                 <div class="peanut peanut_yellow">
@@ -113,7 +113,7 @@
                 </div>
                 <div class="butter_title">The Wild Tahini</div>
                 <div class="butter_price">€4,90</div>
-                <div class="butter_buy butter_buy_yellow">BUY NOW!</div>
+                <button class="butter_buy butter_buy_yellow">BUY NOW!</button>
             </div>
         </div>
         <div class="our">
@@ -248,7 +248,7 @@
                     </div>
                     <div class="wrapper_copy">Copyright 2021 Wild Souls <br> Website by Big Horror + No Matter</div>
                 </div>
-                <div class="wrapper_products">
+                <div class="wrapper_products" id="products">
                     <div class="wrapper_products_title">Products</div>
                     <div class="wrapper_products_items">Sesame Βutter / Tahini</div>
                     <div class="wrapper_products_items">Nut Butters</div>
@@ -293,6 +293,19 @@
             <img src="img/icon/love.svg" alt="">
         </div>
     </section>
+    <div class="modal hide">
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <form action="#">
+                    <div data-close class="modal__close">&times;</div>
+                    <div class="modal__title">Мы свяжемся с вами как можно быстрее!</div>
+                    <input required placeholder="Ваше имя" name="name" type="text" class="modal__input">
+                    <input required placeholder="Ваш номер телефона" name="phone" type="phone" class="modal__input">
+                    <button class="btn btn_dark btn_min">Перезвонить мне</button>
+                </form>
+            </div>
+        </div>
+    </div>
 
     <script src="js/script.js"></script>
 </body>
