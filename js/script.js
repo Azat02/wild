@@ -28,8 +28,13 @@ window.addEventListener('DOMContentLoaded', () => {
     })
 
     discover.addEventListener('click' , () =>{
-        span.classList.remove('hide')
-        span.classList.add('show');
+        if (span.classList.contains('hide')){
+            span.classList.remove('hide')
+            span.classList.add('show');
+        }else{
+            span.classList.add('hide')
+            span.classList.remove('show');
+        }
     })
 
     
@@ -48,6 +53,7 @@ window.addEventListener('DOMContentLoaded', () => {
         modal.classList.remove('hide');
         console.log(count);
         };
+    })
 
     closeModal.forEach(elem=>{
         elem.addEventListener('click', function(){
@@ -81,6 +87,5 @@ window.addEventListener('DOMContentLoaded', () => {
             menu.classList.toggle('menus_active');
         })
     })
-})
-
 });
+
