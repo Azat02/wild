@@ -23,6 +23,9 @@
   height: 100%;
   overflow: hidden;
   background-color: rgba(0, 0, 0, 0.5); }
+  .modal__subtitle {
+    text-align: center;
+    margin-top: 15px; }
   .modal__dialog {
     max-width: 500px;
     margin: 40px auto; }
@@ -71,6 +74,19 @@
     color: #fff;
     border: none;
     cursor: pointer; }
+  .modal .google_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    color: #000; }
+    .modal .google_btn img {
+      display: block;
+      margin-right: 10px;
+      width: 25px;
+      height: 25px; }
 
 header {
   width: 100%;
@@ -119,6 +135,37 @@ header {
     text-align: center;
     color: #000000;
     margin-top: -5px; }
+  header .cookies {
+    position: fixed;
+    right: 100px;
+    bottom: 50px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 78px;
+    width: 392px;
+    height: 57px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+    header .cookies_use, header .cookies_cook {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 18px;
+      color: #FFFFFF; }
+    header .cookies_cook {
+      width: 42%; }
+    header .cookies_btn {
+      background: #F5AFB9;
+      border-radius: 17.5px;
+      width: 62px;
+      height: 35px;
+      border: none;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 35px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #000000;
+      cursor: pointer; }
   header .down {
     background: #000000;
     transform: rotate(-90deg);
@@ -261,7 +308,7 @@ header {
         position: relative; }
         .main .nut .wrapper1 .title::after {
           position: absolute;
-          content: ' ';
+          content: '';
           left: 82%;
           right: 2.99%;
           top: 119px;

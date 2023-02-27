@@ -19,8 +19,8 @@
                 </div>
                 <div class="menu2">
                     <div class="menu2_item"><a href="#">Recipes</a></div>
-                    <div class="menu2_item"><a href="#">Log In</a></div>
-                    <div class="menu2_item"><a href="#">Cart (0)</a></div>
+                    <div class="menu2_item sign_link"><a href="#">Log In</a></div>
+                    <div class="menu2_item cart"><a href="#">Cart (0)</a></div>
                 </div>
             </div>
             <div class="hamburger">
@@ -36,6 +36,11 @@
             <img class="menus_img" src="img/icon/logo.svg" alt="">
             <div class="title">
                 Taste the Wild. <br> Find your Soul
+            </div>
+            <div class="cookies">
+                <div class="cookies_use">Our Website use</div>
+                <div class="cookies_cook">cookies</div>
+                <button class="cookies_btn">ok</button>
             </div>
             <button class="down">
                 <img class="vector" src="img/icon/Vector.svg" alt="">
@@ -121,7 +126,10 @@
                 <div class="our_block">
                     <div class="wrapper">
                         <div class="our_title">Our <br> Wild Way</div>
-                        <div class="our_descr">Our philosophy is present in every stage of our <br> production. We are endeavoring to contribute to <br> the creation of a better world.</div>
+                        <div class="our_descr">Our philosophy is present in every stage of our <br> production. We are endeavoring to contribute to <br> the creation of a better world. 
+                            <span class="our_descr_span hide">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur optio iure dolorem quisquam, corrupti nulla maxime architecto a accusantium, id eaque error corporis, minima nihil. Assumenda eaque minima recusandae atque! 
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ducimus doloribus tenetur. Necessitatibus natus eius vel optio perspiciatis blanditiis aspernatur iste itaque porro laudantium laboriosam, non quisquam soluta assumenda. Facilis?
+                            </span></div>
                         <div class="our_discover">DISCOVER MORE!</div>
                     </div>
                     <div class="our_img">
@@ -237,8 +245,8 @@
                     <input type="email" placeholder="Write your email">
                     <div class="wrapper_wild_subtitle">Follow Us</div>
                     <div class="links">
-                        <a href="#"><img src="img/icon/instagram.svg" alt=""></a>
-                        <a href="#"><img src="img/icon/facebook.svg" alt=""></a>
+                        <a target="_blank" href="https://www.instagram.com"><img src="img/icon/instagram.svg" alt=""></a>
+                        <a target="_blank" href="https://www.facebook.com"><img src="img/icon/facebook.svg" alt=""></a>
                     </div>
                     <div class="pay">
                         <img src="img/icon/visa.svg" alt="visa">
@@ -259,8 +267,8 @@
                     <div class="wrapper_products_items">Open Sesame</div>
                     <div class="wrapper_products_items">Gift Card</div>
                     <div class="wrapper_products_contact">Contact</div>
-                    <div class="wrapper_products_email"><a href="email">info@wildsouls.gr</a></div>
-                    <div class="wrapper_products_phone"><a href="phone">+30 210 3231 438</a></div>
+                    <div class="wrapper_products_email"><a href="mailto:info@wildsouls.gr">info@wildsouls.gr</a></div>
+                    <div class="wrapper_products_phone"><a href="tel:+302103231438">+30 210 3231 438</a></div>
                 </div>
                 <div class="wrapper_products">
                     <div class="wrapper_products_title">Company</div>
@@ -307,6 +315,23 @@
         </div>
     </div>
 
+    <div class="modal sign  hide">
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <form action="#">
+                    <div data-close class="modal__close">&times;</div>
+                    <div class="modal__title">Sign in</div>
+                    <div class="modal__subtitle">Email or mobile phone number</div>
+                    <input required name="name" type="email" class="modal__input">
+                    <button class="btn btn_dark btn_min google_btn"><img src="img/icon/free-icon-search-281764.png" alt="">
+                        Continue with google</button>
+                    <button class="btn btn_dark btn_min">registr me</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    
     <script src="js/script.js"></script>
 </body>
 </html>
