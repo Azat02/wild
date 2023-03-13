@@ -98,11 +98,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center; }
-    header .menus .menu1, header .menus .menu2 {
+    header .menus .menu1 {
       display: flex;
       justify-content: space-between;
       width: 373px; }
-      header .menus .menu1 a, header .menus .menu2 a {
+      header .menus .menu1 a {
         text-decoration: none;
         font-style: normal;
         font-weight: 400;
@@ -110,6 +110,36 @@ header {
         line-height: 24px;
         text-transform: uppercase;
         color: #000000; }
+      header .menus .menu1_item {
+        position: relative; }
+        header .menus .menu1_item .cart_block {
+          overflow: scroll;
+          position: absolute;
+          right: -125px;
+          top: 50px;
+          width: 330px;
+          height: 312px;
+          background-color: #fff;
+          display: flex;
+          flex-direction: column;
+          padding: 20px; }
+          header .menus .menu1_item .cart_block .wrapper {
+            margin-bottom: 40px;
+            width: 280px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #000;
+            padding-bottom: 10px; }
+            header .menus .menu1_item .cart_block .wrapper img {
+              width: 50px;
+              height: 50px; }
+            header .menus .menu1_item .cart_block .wrapper button {
+              width: 15px;
+              height: 15px;
+              display: flex;
+              align-items: center;
+              justify-content: center; }
   header .hamburger {
     display: none; }
   header select {
